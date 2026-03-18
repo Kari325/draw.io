@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.4">
+  <diagram name="Page-1" id="tttCkxRpQ0ceSn6eggV3">
+    <mxGraphModel dx="666" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ii7FIikZVm80o8UshV58-21" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="Kissena Bakery- Revenue Cycle (Order-to-cash)" vertex="1">
+          <mxGeometry height="140" width="760" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-22" parent="Ii7FIikZVm80o8UshV58-21" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Sales Department" vertex="1">
+          <mxGeometry height="120" width="760" y="20" as="geometry">
+            <mxRectangle height="30" width="760" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-27" parent="Ii7FIikZVm80o8UshV58-22" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-28" parent="Ii7FIikZVm80o8UshV58-22" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Customer Places Order" vertex="1">
+          <mxGeometry height="50" width="110" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-31" edge="1" parent="Ii7FIikZVm80o8UshV58-22" source="Ii7FIikZVm80o8UshV58-27" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.302;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ii7FIikZVm80o8UshV58-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="40" as="sourcePoint" />
+            <mxPoint x="60" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-32" parent="Ii7FIikZVm80o8UshV58-22" style="shape=manualInput;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Order Detail Entered into System" vertex="1">
+          <mxGeometry height="100" width="90" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-33" edge="1" parent="Ii7FIikZVm80o8UshV58-22" source="Ii7FIikZVm80o8UshV58-28" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.054;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ii7FIikZVm80o8UshV58-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="110" as="sourcePoint" />
+            <mxPoint x="160" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-24" parent="1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Billing/Accounts Receivable" vertex="1">
+          <mxGeometry height="120" width="760" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii7FIikZVm80o8UshV58-23" parent="1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Warehouse Department" vertex="1">
+          <mxGeometry height="120" width="760" x="30" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
